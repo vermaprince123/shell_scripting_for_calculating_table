@@ -1,0 +1,12 @@
+#!bin/bash
+
+echo "enter the number of table"
+read num
+
+echo "your table is !!!"
+for (( i=1; i<11; i++))
+do
+        num1=$(($num*$i))
+        echo "$num x $i = $num1"
+done
+
